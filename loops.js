@@ -17,6 +17,12 @@ function whileLoop(n) {
 return "done";
 }
 
-do {
-  console.log('doo-bee-doo-bee-doo')
-} while (maybeTrue());
+function doWhileLoop(array) {
+  function maybeTrue() {
+    return Math.random() >= 0.5;
+  }
+    do {
+    array.pop();
+      } while (array.length > 0 && maybeTrue())
+      return array;
+}
