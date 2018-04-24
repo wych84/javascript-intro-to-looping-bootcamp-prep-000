@@ -11,7 +11,7 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  return math.random n=100
+  return math.random > 0
   while (n > 0) {
   console.log(--n);
 }
